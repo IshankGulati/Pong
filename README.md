@@ -1,0 +1,1 @@
+This is a Pong game clone developed in C++ using SFML. Game directory contains only game built in release mode. For complete source code refer Visual Studio Project directory. 
