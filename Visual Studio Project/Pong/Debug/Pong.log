@@ -1,26 +1,8 @@
-﻿Build started 12/21/2015 1:04:52 AM.
+﻿Build started 12/21/2015 2:59:59 PM.
      1>Project "D:\Workspace\Games\Pong\Pong\Pong.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Workspace\Games\Pong\\SFML-2.3.2\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Pong.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Workspace\Games\Pong\\SFML-2.3.2\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Pong.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AIPaddle.cpp EndGameMenu.cpp Game.cpp GameBall.cpp GameObjectManager.cpp InGameMenu.cpp MainMenu.cpp PlayerPaddle.cpp Pong.cpp ScoreBoard.cpp ServiceLocator.cpp SFMLSoundProvider.cpp SoundFileCache.cpp SplashScreen.cpp VisibleGameObject.cpp
-         VisibleGameObject.cpp
-         SplashScreen.cpp
-         SoundFileCache.cpp
-         SFMLSoundProvider.cpp
-         ServiceLocator.cpp
-         ScoreBoard.cpp
-         Pong.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Workspace\Games\Pong\\SFML-2.3.2\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Pong.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt PlayerPaddle.cpp
          PlayerPaddle.cpp
-         MainMenu.cpp
-         InGameMenu.cpp
-         GameObjectManager.cpp
-         GameBall.cpp
-         Game.cpp
-         EndGameMenu.cpp
-         AIPaddle.cpp
-         Generating Code...
-     1>d:\workspace\games\pong\pong\game.cpp(53): warning C4172: returning address of local variable or temporary: event
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\Games\Pong\Debug\Pong.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Workspace\Games\Pong\\SFML-2.3.2\lib\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-system-d.lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Workspace\Games\Pong\Debug\Pong.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\Games\Pong\Debug\Pong.lib" /MACHINE:X86 Debug\AIPaddle.obj
          Debug\EndGameMenu.obj
@@ -43,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:11.85
+Time Elapsed 00:00:19.78

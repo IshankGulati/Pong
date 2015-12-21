@@ -32,7 +32,7 @@ float PlayerPaddle::GetVelocity() const {
 void PlayerPaddle::Update(float elapsedTime) {
 	_elapsedTimeSinceStart += elapsedTime;
 
-	if (_elapsedTimeSinceStart > 0.01f) {
+	if (_elapsedTimeSinceStart > 0.005f) {
 		if (_velocity > 0.0f)
 			_velocity -= 3.5f;
 		else
