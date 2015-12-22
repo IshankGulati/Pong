@@ -4,7 +4,7 @@
 
 PlayerPaddle::PlayerPaddle() :
 	_velocity(0),
-	_maxVelocity(500.0f),
+	_maxVelocity(700.0f),
 	_restitutionCoef(0.7f),
 	_elapsedTimeSinceStart(0.0f)
 {
@@ -32,11 +32,11 @@ float PlayerPaddle::GetVelocity() const {
 void PlayerPaddle::Update(float elapsedTime) {
 	_elapsedTimeSinceStart += elapsedTime;
 
-	if (_elapsedTimeSinceStart > 0.005f) {
+	if (_elapsedTimeSinceStart > 0.001f) {
 		if (_velocity > 0.0f)
-			_velocity -= 3.5f;
+			_velocity -= 1.5f;
 		else
-			_velocity += 3.5f;
+			_velocity += 1.5f;
 		_elapsedTimeSinceStart = 0.0f;
 	}
 
