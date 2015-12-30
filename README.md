@@ -4,7 +4,7 @@ This is a Pong game clone developed in C++ using SFML. Game directory contains o
 
 # How to run
 
-Just run the executable in the Game directory.
+Just run the executable in the Game directory. Use left and right arrow keys to move the paddle and down arrow key to stop it.
 
 
 # Additional Dependencies
